@@ -25,5 +25,12 @@ html,body {
     height: 300px;
     width: 300px;
     background-color: rgb(245, 115, 141);
-    visibility: hidden;
+    /* visibility: hidden; */
+}
+
+.container{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
 }

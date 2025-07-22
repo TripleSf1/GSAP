@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2em;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#box1{
+    margin-top: 10px;
+    height: 10px;
+    width: 1600px;
+    background-color: crimson;
+}
+
+#box2{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(245, 115, 141);
+    visibility: hidden;
+}

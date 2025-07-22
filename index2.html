@@ -1,0 +1,60 @@
+<!-- GSAP Demo HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP Animation Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            background: coral;
+            border-radius: 20px;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+
+    <script>
+        gsap.to("#box1", {
+            duration: 1,
+            opacity: 1,
+            x: 100,
+            ease: "bounce.out"
+        });
+
+        gsap.to("#box2", {
+            duration: 1.5,
+            opacity: 1,
+            scale: 1.5,
+            delay: 0.5,
+            ease: "back.out(1.7)"
+        });
+
+        gsap.to("#box3", {
+            duration: 2,
+            opacity: 1,
+            rotate: 360,
+            delay: 1,
+            ease: "elastic.out(1, 0.3)"
+        });
+    </script>
+</body>
+
+</html>

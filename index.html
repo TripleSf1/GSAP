@@ -1,0 +1,42 @@
+<!-- AOS Demo HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AOS Animation Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            background: #f4f4f4;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section data-aos="fade-up">Fade Up</section>
+    <section data-aos="zoom-in" data-aos-delay="300">Zoom In with Delay</section>
+    <section data-aos="flip-left" data-aos-duration="2000">Flip Left</section>
+    <section data-aos="slide-right" data-aos-offset="200">Slide Right with Offset</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

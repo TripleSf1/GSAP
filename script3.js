@@ -35,9 +35,49 @@ gsap.from("h1", {
 });
 
 let timeLine = gsap.timeline();
-timeLine.to(".container", {
-    x: 1400,
-    y: 400,
-    duration: 1.5,
-    delay: 1,
+timeLine.to(".container1", {
+    x: 400,
+    duration: 1,
+    delay: 0.5,
+});
+
+timeLine.to(".container2", {
+    x: 500,
+    duration: 1,
+    backgroundColor: "red",
+    delay: 0.5,
+});
+timeLine.to(".container3", {
+    x: 600,
+    rotateX: 360,
+    duration: 1,
+    delay: 0.5,
+});
+timeLine.to(".container4", {
+    x: 500,
+    rotateY: 180,
+    duration: 1,
+    delay: 0.5,
+    backgroundColor: "red",
+});
+
+timeLine.to(".container5", {
+    x: 400,
+    duration: 1,
+    delay: 0.5,
+});
+timeLine.to(".container2", {
+    x: 300,
+    duration: 1,
+    delay: 0.5,
+});
+timeLine.to(".container3", {
+    x: 200,
+    duration: 1,
+    delay: 0.5,
+});
+timeLine.to(".container4", {
+    x: 300,
+    duration: 1,
+    delay: 0.5,
 });

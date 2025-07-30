@@ -81,3 +81,10 @@ timeLine.to(".container4", {
     duration: 1,
     delay: 0.5,
 });
+
+gsap.from("#page-1 .box", {
+    scale: 0,
+    delay: 1,
+    duration: 2,
+
+})

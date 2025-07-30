@@ -34,3 +34,34 @@ html,body {
     width: 100px;
     background-color: blue;
 }
+
+#page-1{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 69, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 23, 94);
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    height: 550px;
+    width: 600px;
+    background-color: crimson;
+}
